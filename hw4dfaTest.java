@@ -60,7 +60,7 @@ class hw4dfaTest {
 	@Test
 	void fn2test_4() {
 		String s = "";
-		for(int i = 0; i < 100000; i++) {
+		for(int i = 0; i < 1000; i++) {
 			assertTrue(hw4dfa.fn2(s));
 			s = "a" + s + "b";
 		}
@@ -86,7 +86,7 @@ class hw4dfaTest {
 		assertTrue(hw4dfa.fn4("aa"));
 		assertTrue(hw4dfa.fn4("ba"));
 		assertTrue(hw4dfa.fn4("aabb"));
-		assertTrue(hw4dfa.fn4("abcdbcabc"));
+		assertTrue(hw4dfa.fn4("abcdbcab"));
 	}
 	
 	@Test
