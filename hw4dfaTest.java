@@ -100,20 +100,20 @@ class hw4dfaTest {
 	
 	@Test
 	void fn5test_1() {
-		assertTrue(hw4dfa.fn4("aaaaa"));
-		assertTrue(hw4dfa.fn4("ababa"));
-		assertTrue(hw4dfa.fn4("aabaa"));
-		assertTrue(hw4dfa.fn4("bbabb"));
-		assertTrue(hw4dfa.fn4("abbba"));
+		assertTrue(hw4dfa.fn5("aaaaa"));
+		assertTrue(hw4dfa.fn5("ababa"));
+		assertTrue(hw4dfa.fn5("aabaa"));
+		assertTrue(hw4dfa.fn5("bbabb"));
+		assertTrue(hw4dfa.fn5("abbba"));
 	}
 	
 	@Test
 	void fn5test_2() {
-		assertFalse(hw4dfa.fn4("aaa"));
-		assertFalse(hw4dfa.fn4(""));
-		assertFalse(hw4dfa.fn4("ababb"));
-		assertFalse(hw4dfa.fn4("ababab"));
-		assertFalse(hw4dfa.fn4("acaca"));
+		assertFalse(hw4dfa.fn5("aaa"));
+		assertFalse(hw4dfa.fn5(""));
+		assertFalse(hw4dfa.fn5("ababb"));
+		assertFalse(hw4dfa.fn5("ababab"));
+		assertFalse(hw4dfa.fn5("acaca"));
 	}
 
 }
