@@ -22,7 +22,7 @@ class hw4dfaTest {
 	@Test
 	void fn1test_3() {
 		String s = "ab";
-		for(int i = 0; i < 100000; i++) {
+		for(int i = 0; i < 1000; i++) {
 			assertTrue(hw4dfa.fn1(s));
 			s = s + "a";
 		}

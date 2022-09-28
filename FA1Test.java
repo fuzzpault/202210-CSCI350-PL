@@ -52,7 +52,7 @@ class FA1Test {
 	@Test
 	void test4() {
 		String a = "123";
-		for(int i = 0; i < 10000; i++) {
+		for(int i = 0; i < 100; i++) {
 			assertTrue(FA1.validate(a));
 			a = a + "4123";
 		}
